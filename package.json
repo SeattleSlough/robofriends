@@ -11,5 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC""homepage": "https://github.com/SeattleSlough/React-Fundamentals-ZTM"
+  "license": "ISC",
+  "homepage": "https://github.com/SeattleSlough/React-Fundamentals-ZTM",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
