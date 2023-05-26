@@ -1066,3 +1066,4 @@ node_modules/lodash/fp/zipObj.js
 node_modules/lodash/fp/zipObject.js
 node_modules/lodash/fp/zipObjectDeep.js
 node_modules/lodash/fp/zipWith.js
+.vscode/settings.json
