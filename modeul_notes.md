@@ -35,4 +35,11 @@ Not limited:
 
 ## Great ecosystem
 - Largest JS ecosystem today
-- 
+
+# Naivgating the code
+React and ReactDOM are separate as React isn't just a browser module
+
+root.render --> renders the imported *App component*
+root is where all of the React code hangs off
+
+We are going to focus on *index.js* and *App.js* as they will allow us to build components.
