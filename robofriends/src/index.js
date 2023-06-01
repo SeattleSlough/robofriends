@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';  //connect React package with DOM
 import './index.css';
 import App from './App';
-import Hello from './Hello'
+import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
 root.render(
-    <Hello/>
+  <Hello />
 );
 
 // If you want to start measuring performance in your app, pass a function
