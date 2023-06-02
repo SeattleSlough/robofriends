@@ -7,7 +7,12 @@ import 'tachyons';
 
 const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
 root.render(
-  <Card />
+
+  <div className='bg-light-green dib-i br3 pa3 ma2 grow'>
+    <Card />
+    <Card />
+    <Card />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
