@@ -20,7 +20,7 @@ export class App extends Component {
     return (
       <div className='tc' >
         <h1>RoboFriends</h1>
-        <SearchBox onSearchChange={ this.onSearchChange } />
+        <SearchBox searchChange={ this.onSearchChange } />
         <CardList robots={ this.state.robots } />
       </div >
     );
