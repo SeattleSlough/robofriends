@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';  //connect React package with DOM
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import './index.css';
 
 
 const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
