@@ -9,10 +9,12 @@ export class App extends Component {
   constructor () {
     super();
     this.state = {
-      robots: robots,
+      robots: [],
       searchfield: ''
     };
   }
+
+  // Considered a Smart Component because it holds state
 
   onSearchChange = ( event ) => {
     this.setState( { searchfield: event.target.value } );
