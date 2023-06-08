@@ -5,6 +5,7 @@ import { robots } from './robots';
 import './App.css';
 
 
+// As used, App is considered a Smart Component because it holds state
 export class App extends Component {
   constructor () {
     super();
@@ -14,7 +15,14 @@ export class App extends Component {
     };
   }
 
-  // Considered a Smart Component because it holds state
+  // state.robots is [] at ths point
+
+  componentDidMount() {
+    fetch( `https://jsonplaceholder.typicode.com/users` )
+      .then( response => response.json() )
+      .then( users => this.setState( { robots: users } ) );
+  }
+  // state.robots is now updated with the JSON output
 
   onSearchChange = ( event ) => {
     this.setState( { searchfield: event.target.value } );
