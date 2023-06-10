@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
-import { robots } from './robots';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
+import { robots } from '../robots';
 import './App.css';
 
 
-// As used, App is considered a Smart Component because it holds state
+// As used, App is considered a Smart Component because it holds state (it isn't a Pure Function)
+// As such, App (and others like it are Containers while Pure Function components are Components)
 export class App extends Component {
   constructor () {
     super();
