@@ -31,23 +31,24 @@ export class App extends Component {
   };
 
   render() {
-    const filteredRobots = this.state.robots.filter( robot => {
-      return robot.name.toLowerCase().includes( this.state.searchfield.toLowerCase() );
+    const { robots, searchfield } = this.state; // destructuring: const {a,b } = obj is literally obj.a and obj.b 
+    const filteredRobots = robots.filter( robot => {
+      return robot.name.toLowerCase().includes( searchfield.toLowerCase() );
     } );
-    if( this.state.robots.length === 0 ) {
-      return <h1>Loading</h1>;
-    } else {
-      return (
-        <div className='tc' >
-          <h1 className='f2'>RoboFriends</h1>
-          <SearchBox searchChange={ this.onSearchChange } />
-          <Scroll>
-            <CardList robots={ filteredRobots } />
-          </Scroll>
-        </div >
+    return !robots.length ?  // NOTE: if robots.length is 0 it would be false so !robots.length makes it true which is what we want logically
+      // We are also using a ternary statement instead of an ifelse logic tree
+      // It is a return of whatever the ternary spits our (why return precedes the TS)
+      <h1>Loading</h1> :
+      ( <div className='tc' >
+        <h1 className='f2'>RoboFriends</h1>
+        <SearchBox searchChange={ this.onSearchChange } />
+        <Scroll>
+          <CardList robots={ filteredRobots } />
+        </Scroll>
+      </div >
       );
-    }
-  };
-}
+  }
+};
+
 
 export default App;
