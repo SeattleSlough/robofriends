@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/css/main.6824e76c.css",
-    "main.js": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/js/main.715a9727.js",
-    "static/js/787.32032a02.chunk.js": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/js/787.32032a02.chunk.js",
-    "static/media/SEGA.woff": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/SeattleSlew.github.io/React_Fundamentals_ZTM/index.html",
-    "main.6824e76c.css.map": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/css/main.6824e76c.css.map",
-    "main.715a9727.js.map": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/js/main.715a9727.js.map",
-    "787.32032a02.chunk.js.map": "/SeattleSlew.github.io/React_Fundamentals_ZTM/static/js/787.32032a02.chunk.js.map"
+    "main.css": "/SeattleSlew.github.io/robofriends/static/css/main.ec9d0076.css",
+    "main.js": "/SeattleSlew.github.io/robofriends/static/js/main.f4eaa8d8.js",
+    "static/js/787.32032a02.chunk.js": "/SeattleSlew.github.io/robofriends/static/js/787.32032a02.chunk.js",
+    "static/media/SEGA.woff": "/SeattleSlew.github.io/robofriends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/SeattleSlew.github.io/robofriends/index.html",
+    "main.ec9d0076.css.map": "/SeattleSlew.github.io/robofriends/static/css/main.ec9d0076.css.map",
+    "main.f4eaa8d8.js.map": "/SeattleSlew.github.io/robofriends/static/js/main.f4eaa8d8.js.map",
+    "787.32032a02.chunk.js.map": "/SeattleSlew.github.io/robofriends/static/js/787.32032a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6824e76c.css",
-    "static/js/main.715a9727.js"
+    "static/css/main.ec9d0076.css",
+    "static/js/main.f4eaa8d8.js"
   ]
 }
